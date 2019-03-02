@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="refresh" content="31">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700" rel="stylesheet">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<link rel="stylesheet" href="index.css">
+		<title>Dynamix Score Report</title>
+	</head>
+	<body>
+		<div class="upper">
+			<div class="scoreSummary">
+				<ul>
+					<li class="mainTitle" id="imageName"/>
+					<li id="vulnCount"/>
+					<li id="scoreCount"/>
+					<li>0 penalties (0 points lost)</li>
+				</ul>
+			</div>
+			<div class="runtime">
+				<ul>
+					<li class="runtimeTitle">Image Running Time</li>
+					<li class="mainTitle" id="runningTime"/>
+				</ul>
+			</div>
+		</div>
+		<div class="middle">
+			<br>
+			<div class="issues">
+				<li class="issuesTitle" id="issuesTitle">Security Issues (3 out of 18 resolved)</li><ul id="issuesList"/>
+			</div>
+		</div>
+		<br/>
+		<center><footer>Copyright (C) 2018-2019 CPDiscord Development Team. Score report designed by WhiteHoodHacker.</footer></center>
+	</body>
+	<script src="index.js"></script>
+</html>

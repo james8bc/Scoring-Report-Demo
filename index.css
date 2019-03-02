@@ -1,0 +1,90 @@
+
+    body {
+        font-family: Roboto, Arial;
+        background-color: #FFFFFF;
+        margin: 0;
+    }
+    
+    div.upper {
+        background-color: #00596F;
+        color: #FFFFFF;
+        padding-top: 50px;
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 10px;
+    }
+    
+    div.middle, div.lower {
+        background-color: #FFFFFF;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    
+    div.scoreSummary {
+        display: inline-block;
+    }
+    
+    div.runtime {
+        display: inline-block;
+        float: right;
+        background-color: #FFFFFF;
+        color: #000000;
+        text-align: center;
+        margin-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        border-radius: 20px;
+    }
+    
+    div.issues {
+        display: inline-block;
+    }
+    
+    div.superSecretFeature {
+        display: inline-block;
+        float: right;
+    }
+    
+    div.graph {
+    background-color: #C8C8C8;
+    }
+    
+    ul {
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    li {
+        padding: 0;
+        list-style-type: none;
+    }
+    
+    li.mainTitle {
+        font-size: 130%;
+        font-weight: bold;
+    }
+    
+    li.runtimeTitle {
+        font-size: 75%;
+    }
+    
+    li.issuesTitle {
+        font-weight: bold;
+    }
+    
+    #issuesID {
+        visibility: visible;
+        opacity: 1;
+        transition: visibility 3s, opacity 1s;
+    }
+    
+    #hideButton {
+        background-color: #C8C8C8;
+        color: #000000;
+        padding: 5px;
+    }
+    
+    footer {
+        font-size: 75%;
+        margin-top: 20px;
+    }

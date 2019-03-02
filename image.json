@@ -1,0 +1,17 @@
+"image_info": {
+    "name": "An Image",
+    "start_time": "<formatted date string>",
+    "running_time": "<formatted date string>",
+    "vulns_total": 5,
+    "vulns_found": 2
+},
+"vulns": {
+    "yeet": {
+        "points": 69
+        "desc": "#MakePaulModAgain"
+    },
+    "Yo": {
+        "points": 3
+        "desc": "Vuln check passed"
+    }
+}
